@@ -96,12 +96,11 @@ Form2.ClientDataSet1.Refresh;
 Except
   MessageDlg('Неправильно заповнені поля',mtError,[mbOK],0);
 end;
-Form3.Hide;
 end;
 
 procedure TForm3.Button2Click(Sender: TObject);
 begin
-Form3.Hide;
+Form3.Close;
 end;
 
 procedure TForm3.Button3Click(Sender: TObject);
@@ -133,7 +132,7 @@ Except
 end;
 select_clients(Form2, Form2.SQLQuery1);
 Form2.ClientDataSet1.Refresh;
-Form3.Hide;
+Form3.Close;
 end;
 
 end.

@@ -73,7 +73,6 @@ Form2.SQLQuery1.Params.ParamByName('c_i').Value := client_id;
 Form2.SQLQuery1.Params.ParamByName('cr_i').Value := form1.id_user;
 Form2.SQLQuery1.Params.ParamByName('a').Value := active;
 Form2.SQLQuery1.ExecSQL();
-Form5.Hide;
 Except
  MessageDlg('Неправильно заповнені поля',mtError,[mbOK],0);
 end;
@@ -106,12 +105,12 @@ Except
 end;
 select_projects(Form2, Form2.SQLQuery2);
 Form2.ClientDataSet2.Refresh;
-Form5.Hide;
+Form5.close;
 end;
 
 procedure TForm5.Button3Click(Sender: TObject);
 begin
-Form5.Hide;
+Form5.close;
 end;
 
 procedure TForm5.ComboBox1Change(Sender: TObject);

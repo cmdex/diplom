@@ -99,7 +99,6 @@ SQLQuery6.Params.ParamByName('pay_date').Value := FormatDateTime('yyyy-mm-dd',
 DateTimePicker1.Date);
 SQLQuery6.ExecSQL();
 select_coming(Form2,Form2.ClientDataSet6,Form2.SQLQuery6);
-Form6.Hide;
 Except
 MessageDlg('Неправильно заповнені поля',mtError,[mbOK],0);
 end;
@@ -138,7 +137,7 @@ Form6.DateTimePicker1.Date);
 SQLQuery6.Params.ParamByName('id').Value := id_coming_select;
 SQLQuery6.ExecSQL();
 select_coming(Form2,Form2.ClientDataSet6,Form2.SQLQuery6);
-Form6.Hide;
+Form6.close;
 Except
 MessageDlg('Неправильно заповнені поля',mtError,[mbOK],0);
 end;
@@ -150,7 +149,7 @@ end;
 
 procedure TForm6.Button3Click(Sender: TObject);
 begin
-Form6.Hide;
+Form6.close;
 end;
 
 procedure TForm6.ComboBox1Click(Sender: TObject);

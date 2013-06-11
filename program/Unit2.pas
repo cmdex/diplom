@@ -7,7 +7,7 @@ uses
   Dialogs, ComCtrls, Menus, FMTBcd, DB, Grids, DBGrids, Provider, SqlExpr,
   DBClient, WideStrings, DBXMySql, ExtCtrls, DBCtrls, StdCtrls, DBCGrids,
   RpDefine, RpRave, RpConDS, RpCon, RpConBDE, frxClass, frxDBSet, frxPreview,
-  frxDesgn, frxCtrls, ShellAPI;
+  frxDesgn, frxCtrls, ShellAPI, pngimage, jpeg;
 
 type
   TForm2 = class(TForm)
@@ -95,12 +95,6 @@ type
     Button16: TButton;
     TabSheet5: TTabSheet;
     Panel11: TPanel;
-    Label1: TLabel;
-    Label2: TLabel;
-    Label3: TLabel;
-    Label4: TLabel;
-    Label5: TLabel;
-    Label6: TLabel;
     Label7: TLabel;
     Label8: TLabel;
     Label9: TLabel;
@@ -135,8 +129,6 @@ type
     ComboBox19: TComboBox;
     Button23: TButton;
     DateTimePicker1: TDateTimePicker;
-    Label27: TLabel;
-    Label28: TLabel;
     TabSheet8: TTabSheet;
     Panel13: TPanel;
     Label22: TLabel;
@@ -164,6 +156,15 @@ type
     N8: TMenuItem;
     N9: TMenuItem;
     Help1: TMenuItem;
+    Image1: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label27: TLabel;
+    Label28: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure Button1Click(Sender: TObject);
     procedure N4Click(Sender: TObject);
@@ -417,7 +418,7 @@ Except
 end;
 Form4.Button1.Visible:= False;
 Form4.Button3.Visible:= True;
-Form4.Show;
+Form4.ShowModal;
 end;
 
 procedure TForm2.Button11Click(Sender: TObject);
@@ -431,7 +432,7 @@ Form6.ComboBox1.Text := '';
 Form6.ComboBox2.Text := '';
 Form6.ComboBox3.Text := '';
 Form6.ComboBox4.Text := '';
-Form6.Show;
+Form6.ShowModal;
 end;
 
 procedure TForm2.Button12Click(Sender: TObject);
@@ -445,7 +446,7 @@ Form6.ComboBox4.Text:= DBGrid6.Fields[6].AsString;
 Form6.DateTimePicker1.Date := StrToDate(DBGrid6.Fields[7].AsString);
 form6.Button1.Visible := false;
 form6.Button2.Visible := true;
-form6.Show;
+form6.ShowModal;
 end;
 
 procedure TForm2.Button13Click(Sender: TObject);
@@ -508,7 +509,7 @@ begin
 Form7.Button1.Visible := true;
 Form7.Button2.Visible := false;
 Form7.Edit1.Text := '';
-Form7.Show;
+Form7.ShowModal;
 end;
 
 procedure TForm2.Button18Click(Sender: TObject);
@@ -520,7 +521,7 @@ else if DBGrid4.Fields[2].Value = 0 then
 Form7.ComboBox1.ItemIndex := 1;
 Form7.Button1.Visible := false;
 Form7.Button2.Visible := true;
-Form7.Show;
+Form7.ShowModal;
 end;
 
 procedure TForm2.Button19Click(Sender: TObject);
@@ -563,7 +564,7 @@ Form3.Edit6.Text := '';
 Form3.Edit7.Text := '';
 Form3.Edit8.Text := '';
 Form3.Edit9.Text := '';
-Form3.Show;
+Form3.ShowModal;
 end;
 
 procedure TForm2.Button20Click(Sender: TObject);
@@ -575,7 +576,7 @@ Form8.Edit1.Text := '';
 Form8.Edit2.Text := '';
 Form8.ComboBox1.Text := '';
 Form8.ComboBox2.Text := '';
-Form8.Show;
+Form8.ShowModal;
 end;
 
 procedure TForm2.Button21Click(Sender: TObject);
@@ -587,7 +588,7 @@ Form8.ComboBox2.Text:= DBGrid5.Fields[4].AsString;
 Form8.DateTimePicker1.Date := StrToDate(DBGrid5.Fields[5].AsString);
 Form8.Button1.Visible := false;
 Form8.Button2.Visible := true;
-Form8.Show;
+Form8.ShowModal;
 end;
 
 procedure TForm2.Button22Click(Sender: TObject);
@@ -744,7 +745,7 @@ Form3.Edit8.Text:= DBGrid1.Fields[11].AsString;
 Form3.Edit9.Text:= DBGrid1.Fields[12].AsString;
 Form3.Button1.Visible:= False;
 Form3.Button3.Visible:= True;
-Form3.Show;
+Form3.ShowModal;
 end;
 
 procedure TForm2.Button3Click(Sender: TObject);
@@ -780,7 +781,7 @@ Form5.ComboBox2.Enabled := false;
 Form5.Edit1.Text := '';
 Form5.Edit3.Text := '';
 Form5.Memo1.Lines.Clear;
-Form5.Show;
+Form5.ShowModal;
 end;
 
 procedure TForm2.Button5Click(Sender: TObject);
@@ -811,7 +812,7 @@ Form5.ComboBox2.ItemIndex := 1;
 Form5.ComboBox2.Enabled := true;
 form5_show := 1;
 Form5.Hide;
-Form5.Show;
+Form5.ShowModal;
 end;
 end;
 end;
@@ -872,7 +873,7 @@ Form4.Edit10.Text := '';
 Form4.Edit11.Text := '';
 Form4.Edit12.Text := '';
 Form4.Edit13.Text := '';
-Form4.Show;
+Form4.ShowModal;
 end;
 
 procedure TForm2.Button9Click(Sender: TObject);
@@ -1910,7 +1911,7 @@ end;
 
 procedure TForm2.N5Click(Sender: TObject);
 begin
-Form9.Show;
+Form9.ShowModal;
 end;
 
 procedure TForm2.N7Click(Sender: TObject);

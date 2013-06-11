@@ -7,11 +7,13 @@ object Form6: TForm6
   ClientHeight = 239
   ClientWidth = 651
   Color = clBtnFace
+  DoubleBuffered = True
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  GlassFrame.Enabled = True
   GlassFrame.SheetOfGlass = True
   OldCreateOrder = False
   Position = poDesktopCenter
@@ -213,6 +215,8 @@ object Form6: TForm6
     Width = 75
     Height = 25
     Caption = #1042#1110#1076#1084#1110#1085#1080#1090#1080
+    DoubleBuffered = True
+    ParentDoubleBuffered = False
     TabOrder = 9
     OnClick = Button3Click
   end

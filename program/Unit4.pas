@@ -137,7 +137,6 @@ SQLQuery3.Params.ParamByName('permission').Value := Form4.permission;
 SQLQuery3.ExecSQL();
 select_user(Form2, Form2.SQLQuery3);
 Form2.ClientDataSet3.Active := True;
-Form4.Hide;
 end;
 Except
   MessageDlg('Неправильно заповнені поля',mtError,[mbOK],0);
@@ -148,7 +147,7 @@ end;
 
 procedure TForm4.Button2Click(Sender: TObject);
 begin
-Form4.Hide;
+form4.Close;
 end;
 
 procedure TForm4.Button3Click(Sender: TObject);
@@ -210,7 +209,7 @@ SQLQuery3.Params.ParamByName('id').Value := Form2.id_user_select;
 SQLQuery3.ExecSQL();
 select_user(Form2, Form2.SQLQuery3);
 Form2.ClientDataSet3.Active := True;
-Form4.Hide;
+Form4.Close;
 end;
 Except
   MessageDlg('Неправильно заповнені поля',mtError,[mbOK],0);

@@ -30,6 +30,7 @@ type
     procedure Button2Click(Sender: TObject);
     procedure ComboBox1Change(Sender: TObject);
     procedure ComboBox2Change(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
   private
     { Private declarations }
     status_id, type_cost_id :integer;
@@ -86,7 +87,6 @@ SQLQuery5.Params.ParamByName('date_cost').Value := FormatDateTime('yyyy-mm-dd',
 DateTimePicker1.Date);
 SQLQuery5.ExecSQL();
 select_costs(Form2,Form2.ClientDataSet5,Form2.SQLQuery5);
-Form8.Hide;
 Except
 MessageDlg('Неправильно заповнені поля',mtError,[mbOK],0);
 end;
@@ -122,10 +122,15 @@ Except
 MessageDlg('Неправильно заповнені поля',mtError,[mbOK],0);
 end;
 end;
-Form8.Hide;
+Form8.close;
 end
 else
 MessageDlg('Неправильно заповнені поля',mtError,[mbOK],0);
+end;
+
+procedure TForm8.Button3Click(Sender: TObject);
+begin
+Form8.Close;
 end;
 
 procedure TForm8.ComboBox1Change(Sender: TObject);

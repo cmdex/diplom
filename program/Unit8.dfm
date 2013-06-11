@@ -7,11 +7,14 @@ object Form8: TForm8
   ClientHeight = 219
   ClientWidth = 547
   Color = clBtnFace
+  DoubleBuffered = True
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  GlassFrame.Enabled = True
+  GlassFrame.SheetOfGlass = True
   OldCreateOrder = False
   Position = poDesktopCenter
   OnShow = FormShow
@@ -77,6 +80,7 @@ object Form8: TForm8
     Height = 25
     Caption = #1042#1110#1076#1084#1110#1085#1080#1090#1080
     TabOrder = 2
+    OnClick = Button3Click
   end
   object Edit1: TEdit
     Left = 88

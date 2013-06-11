@@ -8,11 +8,14 @@ object Form1: TForm1
   ClientWidth = 269
   Color = clBtnFace
   DefaultMonitor = dmDesktop
+  DoubleBuffered = True
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  GlassFrame.Enabled = True
+  GlassFrame.SheetOfGlass = True
   OldCreateOrder = False
   Position = poDesktopCenter
   OnCreate = FormCreate
@@ -24,6 +27,7 @@ object Form1: TForm1
     Width = 26
     Height = 13
     Caption = #1051#1086#1075#1110#1085
+    Transparent = True
   end
   object Label2: TLabel
     Left = 47

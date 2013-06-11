@@ -7,11 +7,14 @@ object Form3: TForm3
   ClientHeight = 299
   ClientWidth = 729
   Color = clBtnFace
+  DoubleBuffered = True
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  GlassFrame.Enabled = True
+  GlassFrame.SheetOfGlass = True
   OldCreateOrder = False
   Position = poDesktopCenter
   PixelsPerInch = 96

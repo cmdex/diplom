@@ -8,11 +8,14 @@ object Form4: TForm4
   ClientWidth = 643
   Color = clBtnFace
   TransparentColorValue = clBlue
+  DoubleBuffered = True
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  GlassFrame.Enabled = True
+  GlassFrame.SheetOfGlass = True
   OldCreateOrder = False
   Position = poDesktopCenter
   PixelsPerInch = 96
@@ -137,6 +140,8 @@ object Form4: TForm4
     Width = 75
     Height = 25
     Caption = #1047#1072#1082#1088#1080#1090#1080
+    DoubleBuffered = True
+    ParentDoubleBuffered = False
     TabOrder = 17
     OnClick = Button2Click
   end

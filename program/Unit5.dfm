@@ -7,11 +7,14 @@ object Form5: TForm5
   ClientHeight = 362
   ClientWidth = 695
   Color = clBtnFace
+  DoubleBuffered = True
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  GlassFrame.Enabled = True
+  GlassFrame.SheetOfGlass = True
   OldCreateOrder = False
   Position = poDesktopCenter
   OnShow = FormShow

@@ -51,7 +51,7 @@ SQLQuery1.SQL.Clear;
 SQLQuery1.SQL.Add('select * from db.curency_rate ');
 SQLQuery1.ExecSQL();
 ClientDataSet1.Active := True;
-Form9.Hide;
+Form9.close;
 Except
 MessageDlg('¬вед≥ть дан≥ в формат≥ -> 0,00',mtError,[mbOK],0);
 end;
@@ -59,7 +59,7 @@ end;
 
 procedure TForm9.Button2Click(Sender: TObject);
 begin
-Form9.Hide;
+Form9.close;
 end;
 
 procedure TForm9.FormShow(Sender: TObject);
@@ -74,7 +74,8 @@ begin
 Edit2.Text := FloatToStrF(DataSource1.DataSet.FieldByName('USD').Value, ffFixed, 6, 4);
 Edit3.Text := FloatToStrF(DataSource1.DataSet.FieldByName('EUR').Value, ffFixed, 6, 4);
 Edit4.Text := FloatToStrF(DataSource1.DataSet.FieldByName('RUB').Value, ffFixed, 6, 4);
-end else
+end
+else
 begin
 ClientDataSet1.Active := False;
 SQLQuery1.SQL.Clear;
@@ -89,7 +90,6 @@ Edit2.Text := FloatToStrF(DataSource1.DataSet.FieldByName('USD').Value, ffFixed,
 Edit3.Text := FloatToStrF(DataSource1.DataSet.FieldByName('EUR').Value, ffFixed, 6, 4);
 Edit4.Text := FloatToStrF(DataSource1.DataSet.FieldByName('RUB').Value, ffFixed, 6, 4);
 end;
-Form9.Show;
 end;
 
 end.

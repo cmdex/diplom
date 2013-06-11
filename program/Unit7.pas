@@ -65,7 +65,6 @@ Except
 MessageDlg('Неправильно заповнені поля',mtError,[mbOK],0);
 end;
 end;
-Form7.Hide;
 end;
 
 procedure TForm7.Button2Click(Sender: TObject);
@@ -83,7 +82,7 @@ Form2.SQLQuery4.Params.ParamByName('id').Value := Form2.id_type_costs_select;
 Form2.SQLQuery4.ExecSQL();
 select_type_costs(Form2, Form2.SQLQuery4);
 Form2.ClientDataSet4.Refresh;
-Form7.Hide;
+Form7.close;
 Except
 MessageDlg('Неправильно заповнені поля',mtError,[mbOK],0);
 end;
@@ -92,7 +91,7 @@ end;
 
 procedure TForm7.Button3Click(Sender: TObject);
 begin
-Form7.Hide;
+Form7.close;
 end;
 
 procedure TForm7.ComboBox1Click(Sender: TObject);
