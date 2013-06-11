@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.9.32" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="По умолчанию" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41391,4696028819" ReportOptions.Description.Text="" ReportOptions.LastChange="41391,5310373264" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end." PropData="044C65667403180303546F700300010844617461736574730100095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxShapeView Name="Shape1" Left="0" Top="196,53556" Width="1046,92981" Height="328,81911" ShowHint="False" Frame.Width="2"/>
+    <TfrxLineView Name="Line1" Left="37,7953" Top="196,53556" Width="0" Height="113,3859" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line2" Left="0" Top="309,92146" Width="1046,92981" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="2"/>
+    <TfrxLineView Name="Line3" Left="0" Top="291,02381" Width="1046,92981" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="2"/>
+    <TfrxLineView Name="Line4" Left="151,1812" Top="196,53556" Width="0" Height="113,3859" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line5" Left="249,44898" Top="196,53556" Width="0" Height="113,3859" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line6" Left="302,3624" Top="196,53556" Width="0" Height="113,3859" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line7" Left="249,44898" Top="272,12616" Width="52,91342" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="2"/>
+    <TfrxLineView Name="Line8" Left="249,44898" Top="253,22851" Width="52,91342" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="2"/>
+    <TfrxLineView Name="Line9" Left="249,44898" Top="234,33086" Width="204,09462" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="2"/>
+    <TfrxLineView Name="Line10" Left="377,953" Top="234,33086" Width="0" Height="75,5906" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line11" Left="453,5436" Top="196,53556" Width="0" Height="113,3859" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line13" Left="529,1342" Top="196,53556" Width="0" Height="113,3859" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line14" Left="604,7248" Top="196,53556" Width="0" Height="113,3859" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line15" Left="661,41775" Top="196,53556" Width="0" Height="113,3859" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line16" Left="737,00835" Top="196,53556" Width="0" Height="113,3859" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line17" Left="793,7013" Top="234,33086" Width="0" Height="75,5906" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line18" Left="850,39425" Top="253,22851" Width="0" Height="56,69295" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line19" Left="907,0872" Top="196,53556" Width="0" Height="113,3859" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line12" Left="986,45733" Top="196,53556" Width="0" Height="113,3859" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line20" Left="737,00835" Top="234,33086" Width="170,07885" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="2"/>
+    <TfrxLineView Name="Line21" Left="793,7013" Top="253,22851" Width="113,3859" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="2"/>
+    <TfrxLineView Name="Line22" Left="0" Top="355,27582" Width="1046,92981" Height="0" ShowHint="False" Frame.Typ="4"/>
+    <TfrxLineView Name="Line23" Left="0" Top="400,63018" Width="1046,92981" Height="0" ShowHint="False" Frame.Typ="4"/>
+    <TfrxLineView Name="Line24" Left="0" Top="445,98454" Width="1046,92981" Height="0" ShowHint="False" Frame.Typ="4"/>
+    <TfrxLineView Name="Line26" Left="0" Top="332,59864" Width="1046,92981" Height="0" ShowHint="False" Frame.Typ="4"/>
+    <TfrxLineView Name="Line27" Left="0" Top="377,953" Width="1046,92981" Height="0" ShowHint="False" Frame.Typ="4"/>
+    <TfrxLineView Name="Line28" Left="0" Top="423,30736" Width="1046,92981" Height="0" ShowHint="False" Frame.Typ="4"/>
+    <TfrxLineView Name="Line29" Left="0" Top="468,66172" Width="1046,92981" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="2"/>
+    <TfrxLineView Name="Line25" Left="604,7248" Top="468,66172" Width="0" Height="56,69295" ShowHint="False" Frame.Typ="1" Frame.Width="2"/>
+    <TfrxLineView Name="Line30" Left="604,7248" Top="487,55937" Width="442,20501" Height="0" ShowHint="False" Frame.Typ="4"/>
+    <TfrxLineView Name="Line31" Left="604,7248" Top="506,45702" Width="442,20501" Height="0" ShowHint="False" Frame.Typ="4"/>
+    <TfrxMemoView Name="Memo1" Left="0" Top="196,53556" Width="37,7953" Height="94,48825" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="&#13;&#10;№"/>
+    <TfrxMemoView Name="Memo2" Left="37,7953" Top="196,53556" Width="113,3859" Height="94,48825" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="&#13;&#10;Найменування&#13;&#10;&#13;&#10;приєднання"/>
+    <TfrxMemoView Name="Memo3" Left="151,1812" Top="196,53556" Width="98,26778" Height="94,48825" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="&#13;&#10;№  приладу&#13;&#10;&#13;&#10;обліку"/>
+    <TfrxMemoView Name="Memo4" Left="249,44898" Top="196,53556" Width="52,91342" Height="37,7953" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Вид&#13;&#10;енергії"/>
+    <TfrxMemoView Name="Memo5" Left="302,3624" Top="196,53556" Width="151,1812" Height="37,7953" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="Покази приладів&#13;&#10;обліку"/>
+    <TfrxMemoView Name="Memo6" Left="249,44898" Top="234,33086" Width="52,91342" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="СА"/>
+    <TfrxMemoView Name="Memo7" Left="249,44898" Top="253,22851" Width="52,91342" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="СР"/>
+    <TfrxMemoView Name="Memo8" Left="249,44898" Top="272,12616" Width="52,91342" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="СГ"/>
+    <TfrxMemoView Name="Memo9" Left="302,3624" Top="234,33086" Width="75,5906" Height="56,69295" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="поточні"/>
+    <TfrxMemoView Name="Memo10" Left="377,953" Top="234,33086" Width="75,5906" Height="56,69295" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="попередні"/>
+    <TfrxMemoView Name="Memo11" Left="453,5436" Top="196,53556" Width="75,5906" Height="94,48825" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="&#13;&#10;Різниця"/>
+    <TfrxMemoView Name="Memo12" Left="529,1342" Top="196,53556" Width="75,5906" Height="94,48825" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="За&#13;&#10;видом&#13;&#10;тарифу"/>
+    <TfrxMemoView Name="Memo13" Left="604,7248" Top="196,53556" Width="56,69295" Height="94,48825" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Розрах.&#13;&#10;коеф."/>
+    <TfrxMemoView Name="Memo14" Left="661,41775" Top="196,53556" Width="75,5906" Height="94,48825" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Витрати&#13;&#10;(кВт*год)"/>
+    <TfrxMemoView Name="Memo15" Left="737,00835" Top="196,53556" Width="170,07885" Height="37,7953" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Втрати"/>
+    <TfrxMemoView Name="Memo16" Left="793,7013" Top="234,33086" Width="113,3859" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="в трансформаторах"/>
+    <TfrxMemoView Name="Memo17" Left="737,00835" Top="234,33086" Width="56,69295" Height="56,69295" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="в ЛЕП,&#13;&#10;(кВт*год)"/>
+    <TfrxMemoView Name="Memo18" Left="793,7013" Top="253,22851" Width="56,69295" Height="37,7953" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="змінні,&#13;&#10;(кВт*год)"/>
+    <TfrxMemoView Name="Memo19" Left="850,39425" Top="253,22851" Width="56,69295" Height="37,7953" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="постійні,&#13;&#10;(кВт*год)"/>
+    <TfrxMemoView Name="Memo20" Left="907,0872" Top="215,43321" Width="79,37013" Height="75,5906" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-8" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="за невідповідність&#13;&#10;температурному&#13;&#10;режиму&#13;&#10;лічильника&#13;&#10;(кВт*год)"/>
+    <TfrxMemoView Name="Memo21" Left="907,0872" Top="196,53556" Width="79,37013" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="5%"/>
+    <TfrxMemoView Name="Memo22" Left="986,45733" Top="196,53556" Width="60,47248" Height="94,48825" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="&#13;&#10;разом"/>
+    <TfrxMemoView Name="Memo23" Left="0" Top="291,02381" Width="37,7953" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="1"/>
+    <TfrxMemoView Name="Memo24" Left="37,7953" Top="291,02381" Width="113,3859" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="2"/>
+    <TfrxMemoView Name="Memo25" Left="151,1812" Top="291,02381" Width="98,26778" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="3"/>
+    <TfrxMemoView Name="Memo26" Left="249,44898" Top="291,02381" Width="52,91342" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="4"/>
+    <TfrxMemoView Name="Memo27" Left="302,3624" Top="291,02381" Width="75,5906" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="5"/>
+    <TfrxMemoView Name="Memo28" Left="377,953" Top="291,02381" Width="75,5906" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="6"/>
+    <TfrxMemoView Name="Memo29" Left="453,5436" Top="291,02381" Width="75,5906" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="7"/>
+    <TfrxMemoView Name="Memo30" Left="529,1342" Top="291,02381" Width="75,5906" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="8"/>
+    <TfrxMemoView Name="Memo31" Left="604,7248" Top="291,02381" Width="56,69295" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="9"/>
+    <TfrxMemoView Name="Memo32" Left="661,41775" Top="291,02381" Width="75,5906" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="10"/>
+    <TfrxMemoView Name="Memo33" Left="737,00835" Top="291,02381" Width="56,69295" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="11"/>
+    <TfrxMemoView Name="Memo34" Left="793,7013" Top="291,02381" Width="56,69295" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="12"/>
+    <TfrxMemoView Name="Memo35" Left="850,39425" Top="291,02381" Width="56,69295" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="13"/>
+    <TfrxMemoView Name="Memo36" Left="907,0872" Top="291,02381" Width="79,37013" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="14"/>
+    <TfrxMemoView Name="Memo37" Left="986,45733" Top="291,02381" Width="60,47248" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="15"/>
+    <TfrxLineView Name="Line32" Left="37,7953" Top="309,92146" Width="0" Height="158,74026" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line33" Left="151,1812" Top="309,92146" Width="0" Height="158,74026" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line34" Left="249,44898" Top="309,92146" Width="0" Height="158,74026" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line35" Left="302,3624" Top="309,92146" Width="0" Height="158,74026" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line36" Left="377,953" Top="309,92146" Width="0" Height="158,74026" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line37" Left="453,5436" Top="309,92146" Width="0" Height="158,74026" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line38" Left="529,1342" Top="309,92146" Width="0" Height="158,74026" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line39" Left="604,7248" Top="309,92146" Width="0" Height="158,74026" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line40" Left="661,41775" Top="309,92146" Width="0" Height="215,43321" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line41" Left="737,00835" Top="309,92146" Width="0" Height="215,43321" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line42" Left="793,7013" Top="309,92146" Width="0" Height="215,43321" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line43" Left="850,39425" Top="309,92146" Width="0" Height="215,43321" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line44" Left="907,0872" Top="309,92146" Width="0" Height="215,43321" ShowHint="False" Frame.Typ="1"/>
+    <TfrxLineView Name="Line45" Left="986,45733" Top="309,92146" Width="0" Height="215,43321" ShowHint="False" Frame.Typ="1"/>
+    <TfrxMemoView Name="Memo38" Left="0" Top="480,00031" Width="249,44898" Height="22,67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="3" ParentFont="False" Text="Всього по об`єктах споживача"/>
+    <TfrxMemoView Name="Memo39" Left="0" Top="502,67749" Width="249,44898" Height="22,67718" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="2" ParentFont="False" Text="в тому числі по субспоживачах"/>
+    <TfrxMemoView Name="Memo40" Left="37,7953" Top="0" Width="623,62245" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Додаток 6 до договору про постачання електричної енергії         №                від  "/>
+    <TfrxMemoView Name="Memo41" Left="211,65368" Top="37,7953" Width="506,45702" Height="94,48825" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="3" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="АКТ&#13;&#10;&#13;&#10;про використану електричну енергію&#13;&#10;&#13;&#10;за розрахунковий період _______________ місяць 20___р."/>
+    <TfrxLineView Name="Line46" Left="0" Top="170,07885" Width="1046,92981" Height="0" ShowHint="False" Frame.Typ="4" Frame.Width="2"/>
+    <TfrxMemoView Name="Memo42" Left="154,96073" Top="170,07885" Width="589,60668" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="(повна юридична назва Споживача, дата укладання та № договору про постачання електричної енегрії)"/>
+    <TfrxMemoView Name="Memo43" Left="0" Top="529,1342" Width="132,28355" Height="15,11812" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="в колонці 4 вказати одне із :"/>
+    <TfrxMemoView Name="Memo44" Left="302,3624" Top="529,1342" Width="192,75603" Height="15,11812" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="СА - споживання активної електроенергії;"/>
+    <TfrxMemoView Name="Memo45" Left="302,3624" Top="544,25232" Width="200,31509" Height="15,11812" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="СР - споживання реактивної електроенергії"/>
+    <TfrxMemoView Name="Memo46" Left="302,3624" Top="559,37044" Width="185,19697" Height="15,11812" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="ГР - генерація реактивної електроенергії"/>
+    <TfrxMemoView Name="Memo47" Left="0" Top="574,48856" Width="517,79561" Height="15,11812" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="в колонці 8 вказати розбивку різниці показників приладів обліку за видом тарифу (однозонний, двозонний, тризонний)"/>
+    <TfrxMemoView Name="Memo48" Left="0" Top="623,62245" Width="472,44125" Height="18,89765" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Керівник підприємства споживача __________________________"/>
+    <TfrxMemoView Name="Memo49" Left="313,70099" Top="642,5201" Width="68,03154" Height="15,11812" ShowHint="False" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="(Підпис  П.І.Б )"/>
+  </TfrxReportPage>
+</TfrxReport>
