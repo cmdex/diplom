@@ -50,9 +50,9 @@ object Form3: TForm3
   object Label6: TLabel
     Left = 40
     Top = 203
-    Width = 90
+    Width = 73
     Height = 13
-    Caption = #1044#1072#1090#1072' '#1076#1086#1073#1072#1074#1083#1077#1085#1085#1103
+    Caption = #1044#1072#1090#1072' '#1076#1086#1076#1072#1085#1085#1103
   end
   object Label4: TLabel
     Left = 424
